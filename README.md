@@ -23,7 +23,7 @@ $ yarn test:coverage
 ```
 
 ## API
-####抓取并返回给定账户的交易历史
+#### 抓取并返回给定账户的交易历史
 Path: /api/txs?a=0xeb2a81e229b68c1c22b6683275c00945f9872d90&p=1
 
 |query|description|
