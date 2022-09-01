@@ -1,7 +1,7 @@
 import { Request, Response, Router } from 'express';
 import { getHtmlContent } from 'utils/request';
 import { TARGET_URL } from 'constants/config';
-import * as cacheService from 'services/cacheService';
+import * as cacheService from 'services/cache';
 import { ParseResult, ResponseResult, ResponseCode } from './types';
 import parseHtml from './parseHtml';
 
